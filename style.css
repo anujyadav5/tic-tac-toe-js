@@ -1,0 +1,16 @@
+html, body {
+    margin: none;
+    padding: none;
+}
+
+body {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    width: 100px;
+    margin: auto;
+}
